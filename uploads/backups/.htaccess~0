@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^(.*).html(.*)$ index.php?act=$1&$2 [L]
