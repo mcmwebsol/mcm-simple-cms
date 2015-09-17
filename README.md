@@ -14,3 +14,6 @@ Easy Linking to Other Pages
 Editable Menus
 Permissions to limit access
 Backups of Page Edits
+
+CMS Installation Instructions
+Upload all files. Run install.php in your web browser and follow instructions
