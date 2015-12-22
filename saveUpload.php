@@ -39,6 +39,9 @@ error_reporting(E_ALL); // DEBUG CODE
 
 $userfile = $_FILES[$fieldName]['name'];
 
+if ( strpos($userfile, '..') !== FALSE )
+   die('Illegal filename');
+
 if ( trim($userfile) == '' )
    return '';
 
